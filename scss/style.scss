@@ -1,0 +1,52 @@
+@import "reset";
+@import "vars";
+@import "global";
+@import "fonts";
+
+.header {
+  background: #635854;
+  padding: 12px 0;
+  border-bottom: 4px solid #3596F5;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__item + .navbar__item {
+    margin-left: 80px;
+    text-align: center;
+    width: 114px;
+    height: 100%;
+  }
+  &__link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    transition: all 0.3s;
+    &:hover {
+      background: #3596f5;
+    }
+  }
+  &__contacts {
+    text-align: right;
+    span {
+      display: block;
+      font-size: 14px;
+      line-height: 16px;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+  }
+  &__tel {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+  }
+}
+
+// font-family: 'Bebas Neue', cursive;

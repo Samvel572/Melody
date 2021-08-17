@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+// код для анимации
+// .animate__animated.animate__heartBeat {
+//   --animate-duration: 3s;
+// }
+// :root {
+//   --animate-duration: 800ms;
+//   --animate-delay: 0.9s;
+// }
